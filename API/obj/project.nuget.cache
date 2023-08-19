@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N0kk8jkvv5pnvJ1Ii5gnAx4kdR4Ccz/oYLxVGIbtOgrqMob9khqN0HT4vA8iBgP/ce0I4Lj+VCEXU0JyPmvKlg==",
+  "dgSpecHash": "b9dOjEj8W4deuQh/GaHt0SyxEAzE6UC7J/SQ4OzZM1DroMz6l3VRzloyqQeNZ+KPbNNOnY4l/PyFdjCDmJMLig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rober\\Cours Complémentaire\\E-commerce .net-react\\ReStore\\Api\\API.csproj",
+  "projectFilePath": "C:\\Users\\rober\\Cours Complémentaire\\E-commerce .net-react\\ReStore\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rober\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\rober\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.9\\microsoft.aspnetcore.openapi.7.0.9.nupkg.sha512",
