@@ -6,6 +6,9 @@ const sleep = () => new Promise(resolve => setTimeout(resolve, 300)); // 1 secon
 
 axios.defaults.baseURL = "http://localhost:5000/api";
 
+//active cookies pour le client
+axios.defaults.withCredentials = true;
+
 const responseBody = (response: AxiosResponse) => response.data;
 
 axios.interceptors.response.use(async response => {
@@ -62,9 +65,15 @@ const TestErros = {
 
 }
 
+const Basket = {
+    get: () => requests.get("basket"),
+    addItem: (productId: number, quantity = 1) => requests.post(`/basket?productId=${productId}&quantity=${quantity}`, {}),
+    removeItem: (productId: number, quantity = 1) => requests.delete(`/basket?productId=${productId}&quantity=${quantity}`),
+}
 const agent = {
     Catalog,
-    TestErros
+    TestErros,
+    Basket
 }
 
 export default agent;
