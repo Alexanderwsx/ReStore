@@ -1,7 +1,6 @@
 import { Navigate, createBrowserRouter } from "react-router-dom";
 import App from "../layout/App";
 import HomePage from "../../features/home/HomePage";
-import { ContactPage } from "@mui/icons-material";
 import AboutPage from "../../features/about/AboutPage";
 import Catalog from "../../features/catalog/catalog";
 import ProductDetails from "../../features/catalog/ProductDetails";
@@ -9,6 +8,7 @@ import ServerError from "../errors/ServerError";
 import NotFound from "../errors/NotFound";
 import BasketPage from "../../features/basket/BasketPage";
 import CheckoutPage from "../../features/checkout/CheckoutPage";
+import ContactPage from "../../features/contact/ContactPage";
 
 export const router = createBrowserRouter([
   {
