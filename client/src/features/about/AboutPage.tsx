@@ -13,10 +13,10 @@ import agent from "../../app/api/agent";
 import { useState } from "react";
 
 export default function AboutPage() {
-  const [validationErros, setValidationErrors] = useState<string[]>([]);
+  const [validationError, setValidationErrors] = useState<string[]>([]);
 
   function getValidationError() {
-    agent.TestErros.getValidationError()
+    agent.TestError.getValidationError()
       .then(() => console.log("Should not see this"))
       .catch((error) => {
         setValidationErrors(error);
@@ -32,7 +32,7 @@ export default function AboutPage() {
         <Button
           variant="contained"
           onClick={() =>
-            agent.TestErros.get400Error().catch((error) => console.log(error))
+            agent.TestError.get400Error().catch((error) => console.log(error))
           }
         >
           Test 400 error
@@ -40,7 +40,7 @@ export default function AboutPage() {
         <Button
           variant="contained"
           onClick={() =>
-            agent.TestErros.get401Error().catch((error) => console.log(error))
+            agent.TestError.get401Error().catch((error) => console.log(error))
           }
         >
           Test 401 error
@@ -48,7 +48,7 @@ export default function AboutPage() {
         <Button
           variant="contained"
           onClick={() =>
-            agent.TestErros.get404Error().catch((error) => console.log(error))
+            agent.TestError.get404Error().catch((error) => console.log(error))
           }
         >
           Test 404 error
@@ -56,7 +56,7 @@ export default function AboutPage() {
         <Button
           variant="contained"
           onClick={() =>
-            agent.TestErros.get500Error().catch((error) => console.log(error))
+            agent.TestError.get500Error().catch((error) => console.log(error))
           }
         >
           Test 500 error
@@ -65,11 +65,11 @@ export default function AboutPage() {
           Test Validation error
         </Button>
       </ButtonGroup>
-      {validationErros.length > 0 && (
+      {validationError.length > 0 && (
         <Alert severity="error">
           <AlertTitle>Validation Errors</AlertTitle>
           <List>
-            {validationErros.map((error, i) => (
+            {validationError.map((error, i) => (
               <ListItem key={error}>
                 <ListItemText>{error}</ListItemText>
               </ListItem>
