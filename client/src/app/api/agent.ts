@@ -92,7 +92,7 @@ const Account = {
     fetchAddress: () => requests.get("/account/savedAddress"),
 }
 
-const Order = {
+const Orders = {
     list: () => requests.get("/orders"),
     fetch: (id: number) => requests.get(`/orders/${id}`),
     create: (values: any) => requests.post("/orders", values),
@@ -103,7 +103,7 @@ const agent = {
     TestError,
     Basket,
     Account,
-    Order,
+    Orders,
 }
 
 export default agent;
