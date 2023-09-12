@@ -15,6 +15,8 @@ namespace API.Extensions
             {
                 Id = basket.Id, // Copie de l'ID.
                 BuyerId = basket.BuyerId, // Copie de l'ID de l'acheteur.
+                PaymentIntentId = basket.PaymentIntentId, // Copie de l'ID de l'intention de paiement.
+                ClientSecret = basket.ClientSecret, // Copie du secret client.
                 Items = basket.Items.Select(item => new BasketItemDto // Transformation de chaque `BasketItem` en `BasketItemDto`.
                 {
                     ProductId = item.ProductId,
