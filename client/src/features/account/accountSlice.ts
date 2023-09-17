@@ -19,8 +19,8 @@ export const signInUser = createAsyncThunk<User, FieldValues>(
     async (data, thunkAPI) => {
         try {
             const userDto = await agent.Account.login(data);
-            const {basket, ...user} = userDto;
-            if(basket) thunkAPI.dispatch(setBasket(basket));
+            const { basket, ...user } = userDto;
+            if (basket) thunkAPI.dispatch(setBasket(basket));
             localStorage.setItem("user", JSON.stringify(user));
             return user;
         } catch (error: any) {
@@ -63,7 +63,9 @@ export const accountSlice = createSlice({
             router.navigate("/"); //navigate to home page
         },
         setUser: (state, action) => {
-            state.user = action.payload;
+            let claims = JSON.parse(atob(action.payload.token.split(".")[1])); //decode token to get claims (roles)
+            let roles = claims["http://schemas.microsoft.com/ws/2008/06/identity/claims/role"]; //get roles from claims 
+            state.user = { ...action.payload, roles: typeof (roles) === "string" ? [roles] : roles };
         }
     },
     extraReducers: (builder) => {
@@ -74,7 +76,9 @@ export const accountSlice = createSlice({
             router.navigate("/"); //navigate to home page
         });
         builder.addMatcher(isAnyOf(signInUser.fulfilled, fetchCurrentUser.fulfilled), (state, action) => {
-            state.user = action.payload;
+            let claims = JSON.parse(atob(action.payload.token.split(".")[1])); //decode token to get claims (roles)
+            let roles = claims["http://schemas.microsoft.com/ws/2008/06/identity/claims/role"]; //get roles from claims 
+            state.user = { ...action.payload, roles: typeof (roles) === "string" ? [roles] : roles };
         });
         builder.addMatcher(isAnyOf(signInUser.rejected, fetchCurrentUser.rejected), (state, action) => {
             throw action.payload; //throw error to be caught by the component

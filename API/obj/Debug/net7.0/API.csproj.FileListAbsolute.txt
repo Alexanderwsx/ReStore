@@ -96,3 +96,6 @@ C:\Users\rober\Cours Complémentaire\E-commerce .net-react\ReStore\api\bin\Debug
 C:\Users\rober\Cours Complémentaire\E-commerce .net-react\ReStore\api\bin\Debug\net7.0\API.staticwebassets.runtime.json
 C:\Users\rober\Cours Complémentaire\E-commerce .net-react\ReStore\api\bin\Debug\net7.0\Npgsql.dll
 C:\Users\rober\Cours Complémentaire\E-commerce .net-react\ReStore\api\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\rober\Cours Complémentaire\E-commerce .net-react\ReStore\api\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\rober\Cours Complémentaire\E-commerce .net-react\ReStore\api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\rober\Cours Complémentaire\E-commerce .net-react\ReStore\api\bin\Debug\net7.0\CloudinaryDotNet.dll

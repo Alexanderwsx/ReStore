@@ -1,4 +1,4 @@
-# fly.toml app configuration file generated for restore-roberto on 2023-09-13T04:54:48-04:00
+# fly.toml app configuration file generated for restore-roberto on 2023-09-15T02:08:03-04:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
@@ -6,12 +6,12 @@
 app = "restore-roberto"
 primary_region = "yul"
 
+[build]
+  image = "alexwsx/restore:latest"
+
 [env]
   ASPNETCORE_URLS="http://+:8080"
   StripeSettings__PublishableKey="pk_test_51NoetqFkcVJZaKURECJ5vn9ykGbaeIhS2Bq58X4E5VRLAJDEzNtYyo99LIPNPRZ9hQgUObs1b1n9LGkMqIaC2vKi00N5vWNtBl"
-
-[build]
-  image = "alexwsx/restore:latest"
 
 [http_service]
   internal_port = 8080
