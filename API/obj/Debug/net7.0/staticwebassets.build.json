@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HY75w4wqbosZRVlbwAvho1D4xeFc/f0XKxXlOVZo3Rk=",
+  "Hash": "1KEMNQgYHty0Kk5xQpU9WtqDwtCNtQrY2TQBixjecvM=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -612,12 +612,12 @@
       "OriginalItemSpec": "wwwroot\\static\\js\\787.c4e7f8f9.chunk.js.map"
     },
     {
-      "Identity": "C:\\Users\\rober\\Cours Complémentaire\\E-commerce .net-react\\ReStore\\api\\wwwroot\\static\\js\\main.14c47e3d.js",
+      "Identity": "C:\\Users\\rober\\Cours Complémentaire\\E-commerce .net-react\\ReStore\\api\\wwwroot\\static\\js\\main.c109f06c.js",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\rober\\Cours Complémentaire\\E-commerce .net-react\\ReStore\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "static/js/main.14c47e3d.js",
+      "RelativePath": "static/js/main.c109f06c.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -626,15 +626,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\main.14c47e3d.js"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.c109f06c.js"
     },
     {
-      "Identity": "C:\\Users\\rober\\Cours Complémentaire\\E-commerce .net-react\\ReStore\\api\\wwwroot\\static\\js\\main.14c47e3d.js.LICENSE.txt",
+      "Identity": "C:\\Users\\rober\\Cours Complémentaire\\E-commerce .net-react\\ReStore\\api\\wwwroot\\static\\js\\main.c109f06c.js.LICENSE.txt",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\rober\\Cours Complémentaire\\E-commerce .net-react\\ReStore\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "static/js/main.14c47e3d.js.LICENSE.txt",
+      "RelativePath": "static/js/main.c109f06c.js.LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -643,15 +643,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\main.14c47e3d.js.LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.c109f06c.js.LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\rober\\Cours Complémentaire\\E-commerce .net-react\\ReStore\\api\\wwwroot\\static\\js\\main.14c47e3d.js.map",
+      "Identity": "C:\\Users\\rober\\Cours Complémentaire\\E-commerce .net-react\\ReStore\\api\\wwwroot\\static\\js\\main.c109f06c.js.map",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\rober\\Cours Complémentaire\\E-commerce .net-react\\ReStore\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "static/js/main.14c47e3d.js.map",
+      "RelativePath": "static/js/main.c109f06c.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -660,7 +660,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\main.14c47e3d.js.map"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.c109f06c.js.map"
     },
     {
       "Identity": "C:\\Users\\rober\\Cours Complémentaire\\E-commerce .net-react\\ReStore\\api\\wwwroot\\static\\media\\roboto-cyrillic-300-normal.1431d1cef06ad04f5458.woff2",
