@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qKxDUgAxQdrMy6wB02FED3Uqn/d9GKQC7p7gnzV/ipfFERCd/lknXzQJScpTdT3KVrM2jU1ZAILkc4vch8BVDg==",
+  "dgSpecHash": "QYDaforA/D/jbD9oglyDdn3sJ98RHr7midqrsk0XQuiCNOxURm0HB1ueViu2V702aNGi6dgseWCZuwxgvYkqzQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rober\\Cours Complémentaire\\E-commerce .net-react\\ReStore\\api\\API.csproj",
+  "projectFilePath": "C:\\Users\\rober\\Cours Complémentaire\\E-commerce .net-react\\ReStore\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rober\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\rober\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
